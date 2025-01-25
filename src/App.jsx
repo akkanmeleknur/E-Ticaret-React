@@ -59,6 +59,7 @@ function App() {
                         backgroundColor: 'orange',
                         border: 'none',
                         color: 'white',
+                        cursor: 'pointer'
                       }}
                       onClick={() => dispatch(removeFromBasket({ id: product.id }))}
                     >
